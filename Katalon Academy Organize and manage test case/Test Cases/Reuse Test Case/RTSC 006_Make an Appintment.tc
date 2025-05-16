@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTSC 006_Make an Appintment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d2a9877-47a2-4853-a8bf-488ee91d13e3</testCaseGuid>
+</TestCaseEntity>

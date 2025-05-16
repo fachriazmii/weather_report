@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC001 - making an appointment with doctor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e46bb36a-0b68-4740-9130-e8f492c0694a</testCaseGuid>
+</TestCaseEntity>

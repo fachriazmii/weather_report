@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can make an appointment</description>
+   <name>RTC 003_Make an Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ece419dd-0142-46d3-b021-46a65542511c</testCaseGuid>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>9bb481a1-30d7-4f9c-97f4-1f7d86899985</id>
+      <masked>false</masked>
+      <name>HealthcareCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Fahri'</defaultValue>
+      <description></description>
+      <id>736ab81d-4891-40e7-a122-3ca7a1e90eda</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>
