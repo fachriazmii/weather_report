@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Weather Suite" time="4.645" tests="2" failures="0" errors="0">
+   <testsuite name="Weather Suite" tests="2" failures="0" errors="0" time="4.645" skipped="0" timestamp="16-05-2025T22:09:47" hostname="muhammadfahriazmi - 172.20.10.4" id="Test Suites/Weather Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/muhammadfahriazmi/Katalon Studio/OpenWeatherAPI/Reports/20250516_220936/Weather Suite/20250516_220936"/>
+         <property name="logFiles" value="/Users/muhammadfahriazmi/Katalon Studio/OpenWeatherAPI/Reports/20250516_220936/Weather Suite/20250516_220936/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammadfahriazmi - 172.20.10.4"/>
+         <property name="hostAddress" value="172.20.10.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+      </properties>
+      <testcase name="Test Cases/TC01_AirPollution" time="3.711" classname="Test Cases/TC01_AirPollution" status="PASSED">
+         <system-out><![CDATA[16-05-2025T22:09:47 - [TEST_CASE][PASSED] - Test Cases/TC01_AirPollution: Test Cases/TC01_AirPollution
+
+16-05-2025T22:09:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API/Get_Current_Air_Pollution")): Send request successfully
+
+16-05-2025T22:09:51 - [MESSAGE][INFO] - HAR: /Users/muhammadfahriazmi/Katalon Studio/OpenWeatherAPI/Reports/20250516_220936/Weather Suite/20250516_220936/requests/main/0.har
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Send request successfully
+
+16-05-2025T22:09:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+16-05-2025T22:09:51 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 200, 299): Verify response status code successfully
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC01_WeatherForecast" time="0.406" classname="Test Cases/TC01_WeatherForecast" status="PASSED">
+         <system-out><![CDATA[16-05-2025T22:09:51 - [TEST_CASE][PASSED] - Test Cases/TC01_WeatherForecast: Test Cases/TC01_WeatherForecast
+
+16-05-2025T22:09:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API/Get_5_Day_Weather")): Send request successfully
+
+16-05-2025T22:09:51 - [MESSAGE][INFO] - HAR: /Users/muhammadfahriazmi/Katalon Studio/OpenWeatherAPI/Reports/20250516_220936/Weather Suite/20250516_220936/requests/main/1.har
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Send request successfully
+
+16-05-2025T22:09:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+16-05-2025T22:09:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "cod", "200"): Verify element property value successfully
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+16-05-2025T22:09:51 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 200, 299): Verify response status code successfully
+
+16-05-2025T22:09:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-05-2025T22:09:47 - [TEST_SUITE][PASSED] - Weather Suite: Test Cases/TC01_WeatherForecast]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

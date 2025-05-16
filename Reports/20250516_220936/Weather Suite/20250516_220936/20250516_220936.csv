@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Weather Suite,,,,16-05-2025 22:09:47,16-05-2025 22:09:51,4.645s,PASSED
+,,,,,,,
+Test Cases/TC01_AirPollution,,,,16-05-2025 22:09:47,16-05-2025 22:09:51,3.711s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API/Get_Current_Air_Pollution""))",,,,16-05-2025 22:09:48,16-05-2025 22:09:51,3.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.035s,PASSED
+"verifyResponseStatusCodeInRange(response, 200, 299)",,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.030s,PASSED
+,,,,,,,
+Test Cases/TC01_WeatherForecast,,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.406s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API/Get_5_Day_Weather""))",,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.152s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.009s,PASSED
+"verifyElementPropertyValue(response, ""cod"", ""200"")",,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.126s,PASSED
+"verifyResponseStatusCodeInRange(response, 200, 299)",,,,16-05-2025 22:09:51,16-05-2025 22:09:51,0.005s,PASSED
